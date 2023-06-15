@@ -19,6 +19,9 @@ body {
   height: 7rem;
   background-color: #fff;
   position: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
   top: 0;
   left: 0;
   border-bottom: 0.1rem solid #F3F4F6;
@@ -28,9 +31,30 @@ body {
 .nav__wrapper {
   width: 100%;
   max-width: 120rem;
+  padding: 0 1.5rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+}
+.nav__wrapper__logo__brand {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+  position: relative;
+  color: darkblue;
+}
+.nav__wrapper__logo__brand::after {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  right: -1rem;
+  bottom: 0.3rem;
+  background-color: #10B981;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem #A7F3D0;
 }
 .nav__wrapper__ul {
   list-style: none;
