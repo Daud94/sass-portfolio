@@ -37,12 +37,12 @@
         }
       }
     }
-  ;
-
     &__ul {
       list-style: none;
       @include flexBox(null, null);
-
+      @media (max-width: 768px) {
+        background-color: orange;
+      }
       &__li {
         margin-right: 2rem;
 
