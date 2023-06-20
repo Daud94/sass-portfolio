@@ -187,6 +187,38 @@ body {
   font-weight: 500;
   color: black;
 }
+.header__data__contents__links {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  height: 4.3rem;
+  line-height: 4.3rem;
+  padding: 0 1.5rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  text-transform: capitalize;
+  transition: outline linear 0.3s;
+}
+.btn-default {
+  background-color: #10B981;
+  color: white;
+}
+.btn-default:focus {
+  outline: 0.4rem solid #D1FAE5;
+}
+.btn-dark {
+  background-color: #00008B;
+  color: white;
+}
+.btn-dark:focus {
+  outline: 0.4rem solid #c3c3ff;
+}
 
 .container {
   width: 100%;
