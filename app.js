@@ -5,3 +5,19 @@ toggle.addEventListener('click', () => {
     ul.classList.toggle('nav__active')
     console.log(ul.classList)
 })
+
+// name typewrite effect
+const nameElement = document.querySelector('.header__data__contents__heading')
+const nameText = "Daud Olarewaju"
+let start = 0
+const typeWrite = () => {
+    if (start < nameText.length){
+        nameElement.innerHTML += nameText.charAt(start)
+        start++
+        setTimeout(typeWrite,300)
+    }
+}
+
+typeWrite()
+
+
