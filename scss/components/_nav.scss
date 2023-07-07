@@ -12,6 +12,7 @@
   left: 0;
   border-bottom: .1rem solid $gray-100;
   @include flexBox(center, null);
+  z-index: 1;
 
   &__wrapper {
     width: 100%;
