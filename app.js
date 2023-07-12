@@ -17,7 +17,24 @@ const typeWrite = () => {
         setTimeout(typeWrite,300)
     }
 }
-
 typeWrite()
+
+// open / close modal
+
+const modalBtn = document.querySelector('.modal-btn')
+const modal = document.querySelector('.modal')
+const closeModal = document.querySelector('.modal__wrapper__close')
+
+
+// open modal
+modalBtn.addEventListener('click',()=>{
+    modal.style.display = 'flex';
+})
+
+closeModal.addEventListener('click',()=>{
+    modal.style.display = 'none';
+})
+
+
 
 

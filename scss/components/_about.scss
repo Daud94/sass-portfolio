@@ -1,0 +1,36 @@
+@use "../abstracts" as *;
+.about{
+  padding: 8rem 10rem;
+  background: linear-gradient(to right, $green-50 25%, $white 50%);
+  &__image{
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    &__small{
+      @include position(absolute, -3rem, null, null, -3rem);
+      width: 15rem;
+      height: 15rem;
+      img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        border: .7rem solid $green-50
+      }
+    }
+  }
+  &__info{
+    margin-top: 1.5rem;
+    &__message{
+      font-size: 1.5rem;
+      line-height: 2.8rem;
+      color: $black;
+    }
+  }
+}

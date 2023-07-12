@@ -28,12 +28,10 @@
   @if $screen == lg {
     @media (max-width: map-get($breakPoint, 'lg')) {
       @content
-
     }
   } @else if $screen == md {
     @media (max-width: map-get($breakPoint, 'md')) {
       @content
-
     }
   } @else if $screen == sm {
     @media (max-width: map-get($breakPoint, 'sm')) {
@@ -42,7 +40,6 @@
   } @else if $screen == xsm {
     @media (max-width: map-get($breakPoint, 'xsm')) {
       @content
-
     }
   }
 }
