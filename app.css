@@ -486,6 +486,27 @@ body {
   color: #374151;
   text-transform: capitalize;
 }
+.about__info__socials {
+  margin-top: 2rem;
+  display: flex;
+}
+.about__info__socials__circle {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: midnightblue;
+  margin-left: 1rem;
+}
+.about__info__socials__circle:first-child {
+  margin-left: 0;
+}
+.about__info__socials__circle i {
+  font-size: 1.6rem;
+  color: white;
+}
 
 .container {
   width: 100%;

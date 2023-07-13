@@ -50,5 +50,25 @@
         text-transform: capitalize;
       }
     }
+    &__socials{
+      margin-top: 2rem;
+      display: flex;
+      &__circle{
+        width: 3.5rem;
+        height: 3.5rem;
+        @include flexBox(center, center);
+        border-radius: 50%;
+        background: midnightblue;
+        margin-left:  1rem;
+        &:first-child{
+          margin-left: 0;
+        }
+        i{
+          font-size: 1.6rem;
+          color: white;
+        }
+      }
+    }
+
   }
 }
