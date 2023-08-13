@@ -4,7 +4,7 @@
   "description": "learning sass to create portfolio profile",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "sass app.scss app.css --watch --no-source-map"
+    "compile-sass": "sass app.scss app.css --watch --no-source-map --style compressed"
   },
   "author": "Daud Olarewaju",
   "license": "ISC",
